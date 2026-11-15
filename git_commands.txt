@@ -1,0 +1,65 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git init
+Initializes a new local Git repository.
+
+2. git status
+Displays the current state of the working directory.
+
+3. git add .
+Stages all files for the next commit.
+
+4. git add index.html
+Stages the modified index.html file.
+
+5. git add about.html
+Stages the modified about.html file.
+
+6. git commit -m "message"
+Records staged changes in the repository history.
+
+7. git branch
+Displays the available branches.
+
+8. git branch feature
+Creates a new branch named feature.
+
+9. git switch feature
+Switches to the feature branch.
+
+10. git switch main
+Switches back to the main branch.
+
+11. git merge feature
+Merges feature branch changes into main.
+
+12. git log --oneline
+Displays the commit history in compact form.
+
+13. git log --oneline --graph --all
+Displays commit history with branch relationships.
+
+14. git branch -M main
+Renames the current branch to main.
+
+15. git revert HEAD
+Reverses the latest commit by creating a new commit.
+
+16. git remote add origin REPOSITORY_URL
+Connects the local repository to GitHub.
+
+17. git remote -v
+Displays configured remote repository URLs.
+
+18. git push -u origin main
+Pushes the main branch to GitHub.
+
+19. git push -u origin feature
+Pushes the feature branch to GitHub.
+
+20. git config --global user.name "Your Name"
+Configures the Git username.
+
+21. git config --global user.email "your-email@example.com"
+Configures the Git email address.
